@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home-Travel</title>
+    <title>GoTrip</title>
+    <!-- favicon start -->
+    <link rel="shortcut icon" href="./Images/Group 40071 (2).png" type="image/x-icon">
+    <!-- favicon End -->
     <!-- Fontawesome Cdn Start-->
     <script src="https://kit.fontawesome.com/7a4507e9b3.js" crossorigin="anonymous"></script>
     <!-- Fontawesome Cdn End-->
@@ -15,13 +18,54 @@
 
 <body>
     <!-- Header Section Start -->
-    <header>
+    <header id="header">
         <!-- Navbar start -->
-         <nav>
+        <nav id="navbar">
             <div class="container">
-                
+                <div class="flex">
+                    <div class="logo">
+                        <img src="Images/Group 40071 (2).png" alt="" srcset="">
+                        <h2 class="sec_ttl">Go<span class="active">Trip</span></h2>
+                    </div>
+                    <div class="menu">
+                        <ul class="menu_container hide">
+                            <li><a class="nav_link active_2" href="">Home</a></li>
+                            <li><a class="nav_link" href="">Packages</a></li>
+                            <li><a class="nav_link" href="">Testimonial</a></li>
+                            <li><a class="nav_link" href="">Blog</a></li>
+                            <li><a class="nav_link" href="">Contact</a></li>
+                        </ul>
+                        <i class="fa-solid fa-bars d-none"></i>
+                    </div>
+                </div>
             </div>
-         </nav>
+        </nav>
+        <!-- hero Section Start -->
+        <section id="hero_sec">
+            <div class="container center ">
+                <h1 class="sec_ttl">Explore Your Travel</h1>
+                <p class="sec_text ">Travel better by knowing what type of traveler you are. Take the Traveler Type Quiz
+                    to find out! Explore the world
+                    around you and the world within of traveler you.</p>
+                <div class="selector ">
+                    <input class="" type="text" placeholder="Where go">
+                    <select name="" id="">
+                        <option value="When" selected>When</option>
+                        <option value="When">Jan</option>
+                        <option value="When">Feb</option>
+                        <option value="When">March</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="When" selected>Select Type</option>
+                        <option value="When">Offer</option>
+                        <option value="When">Free</option>
+                        <option value="When">Classic</option>
+                    </select>
+                    <button class="btn"><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
+                </div>
+            </div>
+        </section>
+        <!-- hero Section End -->
     </header>
     <!-- Header Section End -->
     <!-- Main Section Start -->
