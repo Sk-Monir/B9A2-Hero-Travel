@@ -317,7 +317,53 @@ Main Section End
 }
 
 /* Choose Your Destination Section End */
+/* Choose Us Section Start */
+#chooseUs .sec_text {
+    width: 60%;
+    margin: 0 auto;
+}
 
+#chooseUs .choose_card_container {
+    margin-top: 40px;
+}
+
+#chooseUs .choose_card_1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+#chooseUs .choose_card_2 {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#chooseUs .choose_card_item_1,
+#chooseUs .choose_card_item_2,
+#chooseUs .choose_card_item_3 {
+    width: 100%;
+    padding: 50px 30px;
+    border-radius: 16px;
+    background: #FBB56333;
+    border: 1px solid rgba(233, 68, 64, 0.10);
+}
+
+#chooseUs .choose_card_item_2 {
+    background: rgba(41, 206, 246, 0.2);
+    border: 1px solid rgba(41, 206, 246, 0.10);
+}
+
+#chooseUs .choose_card_item_3 {
+    background: rgba(233, 68, 64, 0.2);
+    border: 1px solid rgba(233, 68, 64, 0.10);
+}
+
+#chooseUs img {
+    margin-bottom: 20px;
+}
+
+/* Choose Us Section End */
 /* ------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 Main Section End
@@ -458,6 +504,32 @@ mobile device
         grid-template-columns: repeat(1, 1fr);
     }
 
+    /* Choose Us Section  Responsive*/
+    #chooseUs .sec_text {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #chooseUs .choose_card_container {
+        margin-top: 20px;
+    }
+
+    #chooseUs .choose_card_1 {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    #chooseUs .choose_card_2 {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #chooseUs .choose_card_item_1,
+    #chooseUs .choose_card_item_2,
+    #chooseUs .choose_card_item_3 {
+        padding: 30px 15px;
+    }
+
 }
 
 /*-------------------------------------------------------------------------
@@ -590,6 +662,32 @@ Tablet device
 
     #destination .destination_card_2 .item-d-none {
         display: none;
+    }
+
+    /* Choose Us Section  Responsive*/
+    #chooseUs .sec_text {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #chooseUs .choose_card_container {
+        margin-top: 20px;
+    }
+
+    #chooseUs .choose_card_1 {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    #chooseUs .choose_card_2 {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #chooseUs .choose_card_item_1,
+    #chooseUs .choose_card_item_2,
+    #chooseUs .choose_card_item_3 {
+        padding: 35px 20px;
     }
 }
 
