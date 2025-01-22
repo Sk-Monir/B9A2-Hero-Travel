@@ -417,6 +417,44 @@ Main Section End
 }
 
 /* Deals & Discounts section End */
+/* A Simple Perfect Place To Get Lost Section Start */
+#Place .grid {
+    gap: 30px;
+}
+
+#Place .Place_text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+#Place ul {
+    margin-left: 40px;
+}
+
+#Place li {
+    list-style-type: circle;
+}
+
+#Place .Place_img {
+    position: relative;
+}
+
+#Place .Place_img .sec_ttl_2 {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#Place img {
+    width: 100%;
+}
+
+/* A Simple Perfect Place To Get Lost Section End */
+
 /* ------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 Main Section End
@@ -610,6 +648,21 @@ mobile device
 
     }
 
+    /* A Simple Perfect Place To Get Lost Section Responsive */
+    #Place img {
+        width: 100%;
+        height: 250px;
+    }
+
+    #Place .Place_text {
+        gap: 10px;
+        margin-bottom: 0;
+    }
+
+    #Place ul {
+        margin-left: 20px;
+    }
+
 }
 
 /*-------------------------------------------------------------------------
@@ -795,6 +848,21 @@ Tablet device
         padding: 20px;
         width: 100%;
 
+    }
+
+    /* A Simple Perfect Place To Get Lost Section Responsive */
+    #Place img {
+        width: 100%;
+        height: 350px;
+    }
+
+    #Place .Place_text {
+        gap: 20px;
+        margin-bottom: 0;
+    }
+
+    #Place ul {
+        margin-left: 20px;
     }
 }
 
