@@ -515,7 +515,53 @@ Main Section End
 }
 
 /* Newsletter Section End */
+/* unique section start */
+#unique .container {
+    border-radius: 16px;
+    background: #efeff1a1;
+    padding: 50px 30px;
+}
 
+#unique .container .row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+}
+
+#unique .unique_item {
+    margin-top: 50px;
+}
+
+#unique .unique_items {
+    padding: 50px 0;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    background: #ffffff;
+    transition: all linear .3s;
+}
+
+#unique .unique_items:hover {
+    background: #FF5400;
+}
+
+#unique .unique_items:hover .sec_ttl,
+#unique .unique_items:hover .sec_text {
+    color: #fff;
+}
+
+#unique input {
+    color: #131318A3;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #ffffff;
+    border: 0;
+    margin: 20px;
+    width: 60%
+}
+
+/* unique section End */
 /* ------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 Main Section End
@@ -820,6 +866,31 @@ mobile device
         height: 250px;
     }
 
+    /* unique section Responsive */
+    #unique .container {
+        padding: 10px;
+    }
+
+    #unique .container .row {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 10px;
+    }
+
+    #unique .unique_items {
+        padding: 25px 0;
+    }
+
+    #unique .unique_item {
+        margin-top: 20px;
+    }
+
+    #unique input {
+        padding: 10px;
+        font-size: 12px;
+        margin: 10px 0;
+        width: 100%
+    }
+
     /* Footer Section Responsive */
     #footer {
         padding: 20px 10px;
@@ -1073,6 +1144,30 @@ Tablet device
         bottom: 12%;
         right: 2%;
         transform: rotate(-30deg);
+    }
+
+    /* unique section Responsive */
+    #unique .container {
+        padding: 15px;
+    }
+
+    #unique .container .row {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    #unique .unique_items {
+        padding: 35px 0;
+    }
+
+    #unique .unique_item {
+        margin-top: 35px;
+    }
+
+    #unique input {
+        font-size: 14px;
+        margin: 15px 0;
+        width: 100%
     }
 
     /* Footer Section Responsive */
